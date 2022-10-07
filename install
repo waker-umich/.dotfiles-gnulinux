@@ -1,0 +1,14 @@
+#!/usr/bin/env bash 
+
+# install
+sudo apt install tmux
+sudo apt install git
+sudo apt install vim
+
+# symlink
+ln -sFf ".vimrc" "$HOME/.vimrc"
+ln -sFf ".bashrc" "$HOME/.bashrc"
+ln -sFf ".cheat_sheet" "$HOME/.cheat_sheet"
+ln -sFf ".tmux.conf" "$HOME/.tmux.conf"
+ln -sFf ".my_scripts" "$HOME/.my_scripts"
+ln -sFf ".gitconfig" "$HOME/.gitconfig"
