@@ -5,9 +5,9 @@ sudo apt install tmux
 sudo apt install vim
 
 # symlink
-ln -sFf ".vimrc" "$HOME/.vimrc"
-ln -sFf ".bashrc" "$HOME/.bashrc"
-ln -sFf ".cheat_sheet" "$HOME/.cheat_sheet"
-ln -sFf ".tmux.conf" "$HOME/.tmux.conf"
-ln -sFf ".my_scripts" "$HOME/.my_scripts"
-ln -sFf ".gitconfig" "$HOME/.gitconfig"
+ln -sFf "$HOME/.dotfiles-gnulinux/.vimrc" "$HOME/.vimrc"
+ln -sFf "$HOME/.dotfiles-gnulinux/.bashrc" "$HOME/.bashrc"
+ln -sFf "$HOME/.dotfiles-gnulinux/.cheat_sheet" "$HOME/.cheat_sheet"
+ln -sFf "$HOME/.dotfiles-gnulinux/.tmux.conf" "$HOME/.tmux.conf"
+ln -sFf "$HOME/.dotfiles-gnulinux/.my_scripts" "$HOME/.my_scripts"
+ln -sFf "$HOME/.dotfiles-gnulinux/.gitconfig" "$HOME/.gitconfig"
