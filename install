@@ -3,6 +3,7 @@
 # install
 sudo apt install tmux
 sudo apt install vim
+sudo apt install curl
 
 # symlink
 ln -sFf "$HOME/.dotfiles-gnulinux/.vimrc" "$HOME/.vimrc"
