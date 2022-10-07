@@ -9,9 +9,8 @@ alias mkdir="mkdir -p"
 
 alias cs='~/.my_scripts/curl_command_cheat_sheet.sh'
 alias tmuxcs='cat ~/.cheat_sheet/tmux_cheat_sheet.txt'
-setopt HIST_IGNORE_SPACE
 source ~/.my_scripts/macro.sh
 
 # enable vim in command line
-bindkey -v
+set -o vi
 
