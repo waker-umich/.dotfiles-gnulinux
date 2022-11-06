@@ -6,6 +6,9 @@ sudo apt install vim
 sudo apt install curl
 sudo apt-get install nodejs npm
 npm install -g tldr
+curl -LO https://github.com/BurntSushi/ripgrep/releases/download/13.0.0/ripgrep_13.0.0_amd64.deb
+sudo dpkg -i ripgrep_13.0.0_amd64.deb
+sudo apt-get install fd-find
 
 # symlink
 ln -sFf "$HOME/.dotfiles-gnulinux/.vimrc" "$HOME/.vimrc"
